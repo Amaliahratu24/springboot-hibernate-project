@@ -1,8 +1,8 @@
 # 🛠️ Sistem Pelaporan Tiket IT (Helpdesk) Berbasis Web
 
-> **Project Ujian Akhir Semester (UAS)**
-> **Mata Kuliah:** Peminatan Software Engineer 2025
-> **Dosen Pengampu:** Rizal Broer Bahaweres, M.Kom.
+**Project Ujian Akhir Semester (UAS)**
+**Mata Kuliah:** Peminatan Software Engineer 2025
+**Dosen Pengampu:** Rizal Broer Bahaweres, M.Kom.
 
 ---
 
