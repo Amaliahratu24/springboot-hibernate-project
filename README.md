@@ -1,12 +1,7 @@
 # 🛠️ Sistem Pelaporan Tiket IT (Helpdesk) Berbasis Web
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-
-> **Project Ujian Akhir Semester (UAS)** > **Mata Kuliah:** Peminatan Software Engineer 2025  
+> **Project Ujian Akhir Semester (UAS)**
+> **Mata Kuliah:** Peminatan Software Engineer 2025
 > **Dosen Pengampu:** Rizal Broer Bahaweres, M.Kom.
 
 ---
@@ -55,13 +50,50 @@ Keunggulan utama sistem ini adalah penerapan konsep **BPM (Business Process Mana
 Ikuti langkah-langkah berikut untuk menjalankan project ini di komputer lokal (Localhost):
 
 ### 1. Persiapan Database
-Pastikan **XAMPP** sudah menyala (Modul Apache & MySQL). Buat database baru di phpMyAdmin:
+Pastikan **XAMPP** sudah menyala (Modul Apache & MySQL). Buat database baru di phpMyAdmin dengan nama: `springboot_auth`
 
-```sql
-CREATE DATABASE springboot_auth;
-2. Konfigurasi DatabaseBuka file src/main/resources/application.properties dan sesuaikan konfigurasi berikut:Propertiesspring.datasource.url=jdbc:mysql://localhost:3306/springboot_auth
+### 2. Konfigurasi Database
+Buka file `src/main/resources/application.properties` dan sesuaikan konfigurasi berikut:
+
+spring.datasource.url=jdbc:mysql://localhost:3306/springboot_auth
 spring.datasource.username=root
 spring.datasource.password=
 spring.jpa.hibernate.ddl-auto=update
-3. Jalankan AplikasiBuka terminal di folder project, lalu ketik perintah berikut:Bashmvn spring-boot:run
-Atau jika menggunakan IDE (STS/Eclipse/IntelliJ): Klik kanan project -> Run As -> Spring Boot App.4. Akses AplikasiBuka browser dan kunjungi alamat:http://localhost:8080🧪 Akun Demo (Testing)Gunakan akun berikut untuk simulasi peran User dan Admin:RoleUsernamePasswordDeskripsi Hak AksesAdminadminpasswordBisa melihat semua tiket, mengubah status, dan input solusi.Useruser1123Hanya bisa melapor dan melihat status tiket sendiri.Catatan: Jika akun belum ada di database, silakan lakukan registrasi manual melalui menu Register. Gunakan username admin untuk mendapatkan akses administrator (hardcoded logic).👥 Tim PenyusunProject ini disusun oleh Kelompok 3 - Program Studi Teknik Informatika, Fakultas Sains dan Teknologi, UIN Syarif Hidayatullah Jakarta:👩‍💻 Ratu Amaliah (11230910000026)👩‍💻 Syifa Auliyah Kusumawardani (11230910000114)👩‍💻 Diniah Nurrohmah (1121091000098)Copyright © 2025 - Fakultas Sains dan Teknologi UIN Jakarta
+
+*(Catatan: Kosongkan password jika XAMPP default)*
+
+### 3. Jalankan Aplikasi
+Buka terminal di folder project, lalu ketik perintah berikut:
+`mvn spring-boot:run`
+
+Atau jika menggunakan IDE (STS/Eclipse/IntelliJ): Klik kanan project -> **Run As** -> **Spring Boot App**.
+
+### 4. Akses Aplikasi
+Buka browser dan kunjungi alamat: `http://localhost:8080`
+
+---
+
+## 🧪 Akun Demo (Testing)
+
+Gunakan akun berikut untuk simulasi peran User dan Admin:
+
+| Role | Username | Password | Deskripsi Hak Akses |
+| :--- | :--- | :--- | :--- |
+| **Admin** | admin | password | Bisa melihat semua tiket, mengubah status, dan input solusi. |
+| **User** | user1 | 123 | Hanya bisa melapor dan melihat status tiket sendiri. |
+
+> **Catatan:** Jika akun belum ada di database, silakan lakukan registrasi manual melalui menu **Register**. Gunakan username `admin` untuk mendapatkan akses administrator.
+
+---
+
+## 👥 Tim Penyusun
+
+Project ini disusun oleh **Kelompok 3** - Program Studi Teknik Informatika, Fakultas Sains dan Teknologi, UIN Syarif Hidayatullah Jakarta:
+
+1.  👩‍💻 **Ratu Amaliah** (11230910000026)
+2.  👩‍💻 **Syifa Auliyah Kusumawardani** (11230910000114)
+3.  👩‍💻 **Diniah Nurrohmah** (1121091000098)
+
+---
+
+Copyright © 2025 - Fakultas Sains dan Teknologi UIN Jakarta
