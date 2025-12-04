@@ -1,7 +1,15 @@
 # 🛠️ Sistem Pelaporan Tiket IT (Helpdesk) Berbasis Web
 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+
 > **Project Ujian Akhir Semester (UAS)**
+>
 > **Mata Kuliah:** Peminatan Software Engineer 2025
+>
 > **Dosen Pengampu:** Rizal Broer Bahaweres, M.Kom.
 
 ---
