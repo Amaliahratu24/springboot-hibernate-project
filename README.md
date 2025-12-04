@@ -96,7 +96,7 @@ Gunakan akun berikut untuk simulasi peran User dan Admin:
 
 ## 👥 Tim Penyusun
 
-Project ini disusun oleh **Kelompok 3** - Program Studi Teknik Informatika, Fakultas Sains dan Teknologi, UIN Syarif Hidayatullah Jakarta:
+Project ini disusun oleh **Kelompok 4** - Program Studi Teknik Informatika, Fakultas Sains dan Teknologi, UIN Syarif Hidayatullah Jakarta:
 
 1.  👩‍💻 **Ratu Amaliah** (11230910000026)
 2.  👩‍💻 **Syifa Auliyah Kusumawardani** (11230910000114)
